@@ -282,7 +282,7 @@ Nᴀᴍᴇ : {}
 
 Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
     
-    CAPTION = """<b><a href="https://t.me/dreamcinezone">{file_name}</a></b>\n\n<b>⚜️ Powered By : <a https://t.me/dreamcinezone>[Dreamcine_Botz]</a></b>"""
+    CAPTION = """<b><a href="https://t.me/+2UUjdxPTBQc1ODll">{file_caption}</a></b>\n\n<b>⚜️ Powered By : <a https://t.me/+2UUjdxPTBQc1ODll>[ᴋᴀɴɴᴀᴅᴀᴍᴀɢᴀᴀ]</a></b>"""
 
     IMDB_TEMPLATE_TXT = """
 <b>🏷 Title</b>: <a href={url}>{title}</a>
@@ -404,7 +404,7 @@ Requested by : {message.from_user.mention}</b>"""
     
 🥇 <u>ɢᴏʟᴅ ᴘʟᴀɴ</u>
 ⏰ 30 ᴅᴀʏꜱ 
-💸 ᴘʟᴀɴ ᴘʀɪᴄᴇ ➛ 40₹
+💸 ᴘʟᴀɴ ᴘʀɪᴄᴇ ➛ 30₹
 
 ➛ ᴜꜱᴇ /plan ᴛᴏ ꜱᴇᴇ ᴀʟʟ ᴏᴜʀ ᴘʟᴀɴꜱ ᴀᴛ ᴏɴᴄᴇ.
 ➛ ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴀᴄᴛɪᴠᴇ ᴘʟᴀɴ ʙʏ ᴜꜱɪɴɢ : /myplan</b>"""
@@ -485,7 +485,7 @@ Requested by : {message.from_user.mention}</b>"""
 
     SOURCE_TXT ="""<b>ՏOᑌᖇᑕᗴ ᑕOᗪᗴ : 👇 </b>
 
- ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ʜᴇʀᴇ ◉› :<a href=https://github.com/Deendayal403/Deendayal_dhakad.git>Deendayal_Botz</a>\n """
+ ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ʜᴇʀᴇ ◉› :<a href=https://t.me/+2UUjdxPTBQc1ODll>Deendayal_Botz</a>\n """
 
     EXTRAF_TXT =""" <b> ʜᴇʀᴇ ɪꜱ ᴍʏ ᴇxᴛʀᴀ ꜰᴇᴀᴛᴜʀᴇꜱ </b>"""
 
