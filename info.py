@@ -84,7 +84,7 @@ HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/How_To_Open_Links_byp
 # ============================
 # Link Shortener Configuration
 # ============================
-IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
+IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
 SHORTLINK_URL = environ.get('SHORTLINK_URL', '')
 SHORTLINK_API = environ.get('SHORTLINK_API', '')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/How_To_Open_Links_bypass')  # Tutorial video link for opening shortlink website
@@ -176,9 +176,9 @@ else:
     ON_HEROKU = False
 HAS_SSL = bool(getenv('HAS_SSL', True))
 if HAS_SSL:
-    URL = "https://https://evident-jillana-kannadaflixmoviez-bb952645.koyeb.app/".format(FQDN)
+    URL = "https://protective-vanya-kannadaflixmoviez-fa745fab.koyeb.app/".format(FQDN)
 else:
-    URL = "http://https://evident-jillana-kannadaflixmoviez-bb952645.koyeb.app/".format(FQDN)
+    URL = "https://protective-vanya-kannadaflixmoviez-fa745fab.koyeb.app/".format(FQDN)
 
 # ============================
 # Reactions Configuration
