@@ -209,8 +209,7 @@ async def next_page(bot, query):
         )
         btn.insert(0, [
             InlineKeyboardButton("⚜️ 𝐑𝐞𝐦𝐨𝐯𝐞 𝐚𝐝𝐬 ⚜️", url=f"https://t.me/{temp.U_NAME}?start=premium"),
-            InlineKeyboardButton("Sᴇɴᴅ Aʟʟ", callback_data=f"sendfiles#{key}")
-           
+            InlineKeyboardButton('☸️ ʙᴀᴄᴋᴜᴘ', url=CHNL_LNK)
         ])
 
     else:
@@ -229,7 +228,7 @@ async def next_page(bot, query):
         )
         btn.insert(0, [
             InlineKeyboardButton("⚜️ 𝐑𝐞𝐦𝐨𝐯𝐞 𝐚𝐝𝐬 ⚜️", url=f"https://t.me/{temp.U_NAME}?start=premium"),
-            InlineKeyboardButton("Sᴇɴᴅ Aʟʟ", callback_data=f"sendfiles#{key}") 
+            InlineKeyboardButton('☸️ ʙᴀᴄᴋᴜᴘ', url=CHNL_LNK) 
            
         ])
 
@@ -461,7 +460,7 @@ async def filter_qualities_cb_handler(client: Client, query: CallbackQuery):
         )
         btn.insert(0, [
             InlineKeyboardButton("⚜️ 𝐑𝐞𝐦𝐨𝐯𝐞 𝐚𝐝𝐬 ⚜️", url=f"https://t.me/{temp.U_NAME}?start=premium"),
-            InlineKeyboardButton("Sᴇɴᴅ Aʟʟ", callback_data=f"sendfiles#{key}")
+            InlineKeyboardButton('☸️ ʙᴀᴄᴋᴜᴘ', url=CHNL_LNK)
            
         ])
 
@@ -481,7 +480,7 @@ async def filter_qualities_cb_handler(client: Client, query: CallbackQuery):
         )
         btn.insert(0, [
             InlineKeyboardButton("⚜️ 𝐑𝐞𝐦𝐨𝐯𝐞 𝐚𝐝𝐬 ⚜️", url=f"https://t.me/{temp.U_NAME}?start=premium"),
-            InlineKeyboardButton("Sᴇɴᴅ Aʟʟ", callback_data=f"sendfiles#{key}")
+            InlineKeyboardButton('☸️ ʙᴀᴄᴋᴜᴘ', url=CHNL_LNK)
            
         ])
 
@@ -628,7 +627,7 @@ async def filter_languages_cb_handler(client: Client, query: CallbackQuery):
         )
         btn.insert(0, [
             InlineKeyboardButton("⚜️ 𝐑𝐞𝐦𝐨𝐯𝐞 𝐚𝐝𝐬 ⚜️", url=f"https://t.me/{temp.U_NAME}?start=premium"),
-            InlineKeyboardButton("Sᴇɴᴅ Aʟʟ", callback_data=f"sendfiles#{key}")
+            InlineKeyboardButton('☸️ ʙᴀᴄᴋᴜᴘ', url=CHNL_LNK)
             
         ])
 
@@ -648,7 +647,7 @@ async def filter_languages_cb_handler(client: Client, query: CallbackQuery):
         )
         btn.insert(0, [
             InlineKeyboardButton("⚜️ 𝐑𝐞𝐦𝐨𝐯𝐞 𝐚𝐝𝐬 ⚜️", url=f"https://t.me/{temp.U_NAME}?start=premium"),
-            InlineKeyboardButton("Sᴇɴᴅ Aʟʟ", callback_data=f"sendfiles#{key}")
+            InlineKeyboardButton('☸️ ʙᴀᴄᴋᴜᴘ', url=CHNL_LNK)
             
         ])
 
@@ -831,7 +830,7 @@ async def filter_seasons_cb_handler(client: Client, query: CallbackQuery):
         )
         btn.insert(0, [
             InlineKeyboardButton("⚜️ 𝐑𝐞𝐦𝐨𝐯𝐞 𝐚𝐝𝐬 ⚜️", url=f"https://t.me/{temp.U_NAME}?start=plan"),
-            InlineKeyboardButton("Sᴇɴᴅ Aʟʟ", callback_data=f"sendfiles#{key}")
+            InlineKeyboardButton('☸️ ʙᴀᴄᴋᴜᴘ', url=CHNL_LNK)
             
         ])
     
@@ -1525,7 +1524,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data.startswith("Not_Available_In_The_Hindi"):
         ident, from_user = query.data.split("#")
         btn = [[
-                InlineKeyboardButton("⚜️ Not Available In The Hindi ⚜️", callback_data=f"unalert#{from_user}")
+                InlineKeyboardButton("⚜️ Not Available In The Kannada ⚜️", callback_data=f"unalert#{from_user}")
               ]]
         btn2 = [[
                  InlineKeyboardButton('ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ', url=link.invite_link),
@@ -2369,7 +2368,7 @@ async def auto_filter(client, msg, spoll=False):
         )
         btn.insert(0, [
             InlineKeyboardButton("⚜️ 𝐑𝐞𝐦𝐨𝐯𝐞 𝐚𝐝𝐬 ⚜️", url=f"https://t.me/{temp.U_NAME}?start=premium"),
-            InlineKeyboardButton("Sᴇɴᴅ Aʟʟ", callback_data=f"sendfiles#{key}")
+            InlineKeyboardButton('☸️ ʙᴀᴄᴋᴜᴘ', url=CHNL_LNK)
             
         ])
 
@@ -2389,7 +2388,7 @@ async def auto_filter(client, msg, spoll=False):
         )
         btn.insert(0, [
             InlineKeyboardButton("⚜️ 𝐑𝐞𝐦𝐨𝐯𝐞 𝐚𝐝𝐬 ⚜️", url=f"https://t.me/{temp.U_NAME}?start=premium"),
-            InlineKeyboardButton("Sᴇɴᴅ Aʟʟ", callback_data=f"sendfiles#{key}")
+            InlineKeyboardButton('☸️ ʙᴀᴄᴋᴜᴘ', url=CHNL_LNK)
             
         ])
 
